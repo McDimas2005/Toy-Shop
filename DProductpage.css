@@ -1,0 +1,597 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ .header{
+   /* border: 2px solid red; */
+   /* max-width: 100%; */
+   position: sticky;
+   /* top: 0; */
+   /* z-index: 100; */
+ }
+ 
+ .navi{
+    padding: 5px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    /* border: 2px solid red; */
+ 
+ }
+ 
+ .axis{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    margin-right: 0%;
+    margin-left: auto;
+    display: flex;
+    order: 0;
+    font-size: larger;
+    /* border: 2px solid red; */
+ 
+ }
+ 
+ .ordinat{
+    display: inline-flex;
+    margin: 10px;
+    /* border: 2px solid red; */
+ 
+ }
+ 
+ .ordinat a{
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+    /* border: 2px solid red; */
+ }
+ 
+ .ordinat a :hover{
+    color: brown;
+    background-color: aqua;
+ 
+ }
+ 
+ .ordinat a:hover {
+    color: #3a18d3;
+ }
+ 
+ .menu{
+   display: flex;
+   /* margin-right: 650px; */
+   /* margin-inline-end: 50%; */
+   /* margin-inline-start: -50%; */
+   /* -ms-flex-align: baseline; */
+   
+   /* border: 2px solid red; */
+ }
+ 
+ .right-section{
+   display: flex;
+   justify-content: flex-end;
+ 
+   flex-grow: 1;
+   align-items: center;
+   /* border: 2px solid red; */
+ }
+ 
+ .trolley img{
+   display: flex;
+   width: auto;
+   height: 30px;
+   margin-right: 20px;
+   order: 3;
+   transition: all 0.3s ease-in-out;
+   /* border: 2px solid red; */
+ }
+ 
+ .trolley img:hover{
+   height: 36px;
+   width: auto;
+   padding-left: 10%;
+ }
+ /* .trolley :hover{
+   filter: none;
+   animation: none;
+ }
+ 
+ .trolley img:hover{
+   text-decoration: none;
+   filter: none;
+   animation: none;
+ } */
+ 
+ .login {
+   text-decoration: none;
+   padding: 5px 10px;
+   color: #000;
+   font-size: larger;
+   order: 2;
+   margin-right: 15px;
+   /* border: 2px solid red; */
+   /* border-radius: 5px; */
+ }
+ 
+ .logo img{
+    height: 60px; 
+    width: auto;
+    margin-right: 10px;
+    margin-left: 5px;
+    /* border: 2px solid red; */
+ }
+ 
+ a {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a::after {
+    content: "";
+    position: absolute;
+    width: 75%;
+    left: 11px;
+    bottom: 0;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+    transform: scaleX(0);
+    visibility: hidden;
+    background-color: #000;
+ }
+  
+  .lining:hover::after {
+      transform: scaleX(1);
+      visibility: visible;
+  }
+  .login:hover::after {
+      transform: scaleX(1);
+      visibility: visible;
+ }
+  .logo:hover::after {
+      transform: scaleX(1);
+      visibility: visible;
+ }
+
+/* CATEGORIES */
+.categoryLine{
+    display: flex;
+    margin-top: 2em;
+    justify-content: space-between;
+    /* min-height: 250px; */
+    min-height: 300px;
+    /* border: solid 3px rgb(71, 24, 160); */
+    padding-left: 1em;
+    padding-right: 1em;
+}
+    .bigContainer1{
+        min-height: 150px;
+        min-width: 16%;
+        /* border: solid 3px red; */
+        background-image: url(./Pic/tamiya.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .bigContainer2{
+        min-height: 150px;
+        min-width: 16%;
+        /* border: solid 3px red; */
+        background-image: url(./Pic/Demonslayer2.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .bigContainer3{
+        min-height: 150px;
+        min-width: 16%;
+        /* border: solid 3px red; */
+        background-image: url(./Pic/lego.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .bigContainer4{
+        min-height: 150px;
+        min-width: 16%;
+        /* border: solid 3px red; */
+        background-image: url(./Pic/robot.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .bigContainer5{
+        min-height: 150px;
+        min-width: 16%;
+        /* border: solid 3px red; */
+        background-image: url(./Pic/doll.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .bigContainer6{
+        min-height: 150px;
+        min-width: 16%;
+        /* border: solid 3px red; */
+        background-image: url(./Pic/hotwheelsunleashed.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position-x: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+        .textContainer{
+            background-color: black;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* min-height: 100%; */
+            min-width: 100%;
+            /* border: solid 3px red; */
+            text-align: center;
+            color: white;
+            font-size: 120%;
+        }
+
+/* SEARCH BAR */
+.searchLine{
+    margin-top: 3em;
+    min-height: 50px;
+    /* border: solid 3px rgb(71, 24, 160); */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+    .sortContainer{
+        /* border: solid 3px rgb(153, 14, 14); */
+        min-width: 35px;
+        min-height: 25px;
+        display: flex;
+        align-items: center;
+    }
+    .sortContainer img{
+        image-rendering: crisp-edges;
+        max-width: 30px;
+        max-height: 100%;
+        object-fit: cover;
+    }
+    .searchContainer{
+        /* border: solid 3px rgb(153, 14, 14); */
+        /* min-height: 25px;
+        min-width: 250px; */
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .custom-input {
+        padding: 10px;
+        font-size: 16px;
+        color: #333;
+        width: 500px;
+        background-color: #fff;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+      
+      .custom-input:focus {
+        outline: none;
+        border-color: #0099ff;
+        box-shadow: 0 0 5px #0099ff;
+      }
+
+/* PRODUCT LIST */
+.product{
+    /* border: solid 3px rgb(153, 14, 14); */
+    min-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bigBox1{
+    margin-top: 10px;
+    /* border: solid 3px rgb(153, 14, 14); */
+    min-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+    .productContainer{
+        /* border: solid 3px rgb(23, 14, 153); */
+        /* min-width: 25%; */
+        /* max-width: 25%; */
+        width: 25%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 10px;
+    }
+        .prodImgContainer{
+            /* border: solid 3px rgb(14, 153, 56); */
+            min-height: 60%;
+            /* background-image: url("./Pic/legoEmperorDiorama.webp"); */
+            background-size: cover;
+            padding-bottom: 5px;
+        }
+        .prodImgContainer img{
+            image-rendering: crisp-edges;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .prodDescContainer{
+            /* border: solid 3px rgb(153, 14, 111); */
+            min-height: 25px;
+            margin-left: 1em;
+        }
+            .prodPrice{
+                font-size: 120%;
+                margin-top: 8px;
+                margin-bottom: 40px;
+            }
+            .buyNow{
+                min-width: 50%;
+                color: aliceblue;
+                background-color: midnightblue;
+                border: midnightblue 2px solid;
+                font-size: 110%
+            }
+            .buyNow:hover{
+                background-color: aqua;
+                color: black;
+            }
+
+.loadContainer{
+    margin-top: 30px;
+    margin-bottom: 4em;
+    display: flex;
+    justify-content: flex-end;
+
+}
+    .loadMore{
+        margin: 10px;
+        min-width: 10%;
+        color: aliceblue;
+        background-color: midnightblue;
+        border: midnightblue 2px solid;
+        font-size: 110%
+    }
+    .loadMore:hover{
+        background-color: aqua;
+        color: black;
+    }
+
+/*  */
+/* FOOTER */
+footer{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2em; */
+    min-height: 370px;
+    background-color: rgb(225, 230, 235);
+ }
+ 
+ .FootDet{
+    /* border: 5px solid red; */
+    min-width: 75%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    gap: 30px;
+ }
+ 
+ .footImg{
+    /* border: 5px solid rgb(121, 27, 175); */
+    min-width: 17%;
+    display: flexbox;
+    max-height: 100%;
+    max-width: 17%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+ }
+ 
+ .footImg img{
+    image-rendering: crisp-edges;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ 
+ .footCon{
+    /* border: 5px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+ }
+ 
+ .footTitle{
+    /* border: 5px solid greenyellow; */
+ }
+ 
+ .footPoint{
+    /* border: 5px solid orange; */
+ }
+ 
+ .point{
+    /* border: 5px solid blueviolet; */
+ }
+ 
+ .sosmed{
+    /* border: 7px solid seagreen; */
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+    /* min-height: fit-content; */
+    /* justify-content: space-between; */
+ }
+ 
+ .sosmedList{
+    /* border: 5px solid rgb(121, 27, 175); */
+    /* min-width: 17%; */
+    display: flexbox;
+    /* min-height: 25%; */
+    min-width: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    /* max-width: 17%; */
+    padding-top: 1em;
+    padding-bottom: 1em;
+ }
+ .sosmedList img{
+    image-rendering: crisp-edges;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ 
+ .copyright{
+    color: white;
+    background-color: midnightblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ }
+
+ /* RESPONSIVE 768 */
+img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    html{
+       font-size: 80.5%;
+    }
+    
+    #hamburger-menu{
+       display: inline-block;
+    }
+
+    .product{
+        flex-direction: row;
+    }
+    .productContainer{
+        width: 80%;
+        justify-content: center;
+        min-height: 500px;
+    }
+    
+    .bigBox1{
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+        max-width: 50%;
+    }
+    
+    .footImg{
+       min-width: 100%;
+       /* display: grid; */
+    }
+    footer{
+       display: flex;
+       flex-direction: column;
+    }
+    
+    .searchLine{
+        /* flex-wrap: wrap; */
+        margin-bottom: 2em;
+    }
+    .custom-input{
+        width: auto;
+    }
+ 
+    .Headline {
+       padding: 1em;
+       flex-direction: column;
+       min-height: auto;
+       align-items: center;
+     }
+   
+     .container {
+       margin: 1em;
+       max-height: none;
+     }
+   
+     .harrCon {
+       justify-content: center;
+       margin-right: 0;
+       max-width: 100%;
+     }
+   
+     .categoryLine{
+        max-height: 400px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+        gap: 10px;
+    }
+    .bigContainer2{
+        background-position-y: 20%;
+    }
+    .custom-input{
+        width: 140px;
+    }
+    /* .bigContainer5{
+        flex: auto;
+    } */
+    .bigContainer4{
+        background-position-y: top;
+    }
+    .bigContainer5{
+        background-position-y: 20%;
+    }
+ 
+    }
+  
+  /* Media query for even smaller screens */
+  @media (max-width: 480px) {
+    .navi{
+       justify-content: center;
+    }
+    .right-section{
+       display: flex;
+       /* flex-direction: column; */
+       gap: 15px;
+       justify-content: center;
+       margin-bottom: 1em;
+    }
+    .registerPageContainer{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .product{
+        flex-direction: column;
+    }
+    .bigBox1{
+        max-width: 100%;
+    }
+    .FootDet{
+       /* flex-direction: column; */
+       flex-wrap: wrap;
+    }
+    img {
+      width: 100%;
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      /* Decrease the width to 60% */
+    }
+  }
