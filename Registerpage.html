@@ -6,14 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
     <link rel="stylesheet" href="DRegisterpage.css">
+    <link rel="stylesheet" href="enhancements.css">
+    <script src="enhancements.js" defer></script>
 </head>
 <body>
     <div class="mainHead">
         <div id="navbar" class="header">
             <div class="navi">
                 <a href="index.html" class="logo">
-                    <img src="./Pic/logo.png" alt="Logo">
+                    <img src="./Pic/logo.png" alt="HI-Toyz store logo">
                 </a>
+                <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav-toggle-lines" aria-hidden="true"></span>
+                </button>
             <div class="menu">
                 <div class="axis">
                     <div class="ordinat"><a href="Productspage.html" class="lining">Products</a></div>
@@ -23,7 +28,7 @@
             </div>
             <div class="right-section">
                 <a href="#" class = "trolley">
-                    <img src="./Pic/trolley.svg" alt="Trolley">
+                    <img src="./Pic/trolley.svg" alt="Shopping trolley">
                     </a>
                 <a href="Registerpage.html" class="login" class="lining">Register</a>
                 </div>            
@@ -37,34 +42,32 @@
     </div> -->
     <div class="registerPageContainer">
         <div class="figureContainer">
-            <img src="./Pic/lookAtYou_Flip.jpg" alt="">
+            <img src="./Pic/lookAtYou_Flip.jpg" alt="Toy collector looking at display shelves">
         </div>
         <div class="formContainer">
             <h1 class="register">JOIN US!</h1>
             <div class="nameContainer">
-                <input type="text" class="custom-input" id="name-input" placeholder="Your Name">
+                <input type="text" class="custom-input" id="name-input" placeholder="Your Name" autocomplete="name">
             </div>
             <div class="genderContainer">
-                <p>Male</p>
-                <input type="radio" name="input-gender" id="a">
+                <label for="gender-male">Male</label>
+                <input type="radio" name="input-gender" id="gender-male" value="male">
                 <div class="space"></div>
-                <p>Female</p>
-                <input type="radio" name="input-gender" id="a">
+                <label for="gender-female">Female</label>
+                <input type="radio" name="input-gender" id="gender-female" value="female">
             </div>
             <div class="nameContainer">
                 <input type="date" name="" id="input-date" class="custom-input">
             </div>
             <div class="nameContainer">
-                <input type="text" class="custom-input" id="email-input" placeholder="Your Email">
+                <input type="text" class="custom-input" id="email-input" placeholder="Your Email" autocomplete="email">
             </div>
             <div class="nameContainer">
-                <input type="text" class="custom-input" id="password-input" placeholder="Your Password">
+                <input type="password" class="custom-input" id="password-input" placeholder="Your Password" autocomplete="new-password">
             </div>
             <div class="agreement">
                 <input type="checkbox" name="input-agreement" id="input-agreement">
-                <a href="#">
-                    <p class="agreementLink">I Agree to the Service Agreement</p>
-                </a>
+                <label for="input-agreement">I Agree to the Service Agreement</label>
             </div>
             <div class="submitContainer">
                 <button class="submit" id="myButton" onclick="validation()"> SUBMIT </button>
@@ -132,18 +135,18 @@
                     
                     <div class="sosmed">
                         <div class="sosmedList">
-                            <a href=""><img src="./Pic/square-instagram.svg" alt=""></a>
+                            <a href=""><img src="./Pic/square-instagram.svg" alt="Instagram"></a>
                         </div>
                         <div class="sosmedList">
-                            <a href=""><img src="./Pic/facebook (1).svg" alt=""></a>
+                            <a href=""><img src="./Pic/facebook (1).svg" alt="Facebook"></a>
                             
                         </div>
                         <div class="sosmedList">
-                            <a href=""><img src="./Pic/discord.svg" alt=""></a>
+                            <a href=""><img src="./Pic/discord.svg" alt="Discord"></a>
                             
                         </div>
                         <div class="sosmedList">
-                            <a href=""><img src="./Pic/twitter (1).svg" alt=""></a>
+                            <a href=""><img src="./Pic/twitter (1).svg" alt="Twitter"></a>
                             
                         </div>
                     </div>
@@ -151,7 +154,7 @@
             </div>
         </div>
         <div class="footImg">
-                <img src="./Pic/gojo-removebg-preview.png" alt="">
+                <img src="./Pic/gojo-removebg-preview.png" alt="Gojo figure decoration">
         </div>
     </footer>
     <div class="copyright">

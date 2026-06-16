@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HI-Toyz Products Page</title>
     <link rel="stylesheet" href="DProductpage.css">
+    <link rel="stylesheet" href="enhancements.css">
+    <script src="enhancements.js" defer></script>
 
 </head>
 <body>
@@ -14,8 +16,11 @@
         <div id="navbar" class="header">
             <div class="navi">
                 <a href="index.html" class="logo">
-                    <img src="./Pic/logo.png" alt="Logo">
+                    <img src="./Pic/logo.png" alt="HI-Toyz store logo">
                 </a>
+                <button class="nav-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="nav-toggle-lines" aria-hidden="true"></span>
+                </button>
             <div class="menu">
                 <div class="axis">                    
                     <div class="ordinat"><a href="Productspage.html" class="lining">Products</a></div>
@@ -25,7 +30,7 @@
             </div>
             <div class="right-section">
                 <a href="#" class = "trolley">
-                    <img src="./Pic/trolley.svg" alt="Trolley">
+                    <img src="./Pic/trolley.svg" alt="Shopping trolley">
                     </a>
                 <a href="Registerpage.html" class="login" class="lining">Register</a>
                 </div>            
@@ -70,19 +75,16 @@
     <!-- SEARCH BAR -->
     <div class="searchLine">
         <div class="sortContainer">
-            <img src="./Pic/arrow-down-wide-short-solid (1).svg" alt="">
+            <img src="./Pic/arrow-down-wide-short-solid (1).svg" alt="Sort products">
         </div>
         <div class="searchContainer">
             <input type="text" class="custom-input" placeholder="Search U Want here...">
-            <!-- <div class="sortContainer">
-                <img src="./Pic/magnifying-glass-solid (1).svg" alt="">
-            </div> -->
         </div>
         <div class="sortContainer">
-            <img src="./Pic/filter-solid (1).svg" alt="">
+            <img src="./Pic/filter-solid (1).svg" alt="Filter products">
         </div>
         <div class="sortContainer">
-            <img src="./Pic/heart-solid.svg" alt="">
+            <img src="./Pic/heart-solid.svg" alt="Favorite products">
         </div>
     </div>
 
@@ -91,7 +93,7 @@
         <div class="bigBox1">
             <div class="productContainer">
                 <div class="prodImgContainer">
-                    <img src="./Pic/buzz2.jpeg" alt="">
+                    <img src="./Pic/buzz2.jpeg" alt="Buzz Lightyear Disney Toy Story figure">
                 </div>
                 <div class="prodDescContainer">
                     <h3 class="prodTitle">BUZZ Lightyear Disney Toy Story Series</h3>
@@ -102,7 +104,7 @@
             </div>
             <div class="productContainer">
                 <div class="prodImgContainer">
-                    <img src="./Pic/legoEmperorDiorama.webp" alt="">
+                    <img src="./Pic/legoEmperorDiorama.webp" alt="LEGO Emperor Star Wars diorama set">
                 </div>
                 <div class="prodDescContainer">
                     <h3 class="prodTitle">LEGO Emperor Star Wars Diorama Deluxe Edition</h3>
@@ -113,7 +115,7 @@
             </div>
             <div class="productContainer">
                 <div class="prodImgContainer">
-                    <img src="./Pic/elsa2.jpeg" alt="">
+                    <img src="./Pic/elsa2.jpeg" alt="Elsa figure holding the fire spirit">
                 </div>
                 <div class="prodDescContainer">
                     <h3 class="prodTitle">Elsa Holding Fire Spirit Figure Limited Item</h3>
@@ -124,7 +126,7 @@
             </div>
             <div class="productContainer">
                 <div class="prodImgContainer">
-                    <img src="./Pic/SAO.jpg" alt="">
+                    <img src="./Pic/SAO.jpg" alt="Kirito and Asuna Sword Art Online figures">
                 </div>
                 <div class="prodDescContainer">
                     <h3 class="prodTitle">Lucrea Kirito & Asuna SAO Figure</h3>
@@ -140,7 +142,7 @@
         <div class="bigBox1">
             <div class="productContainer">
                 <div class="prodImgContainer">
-                    <img src="./Pic/superman.jpg" alt="">
+                    <img src="./Pic/superman.jpg" alt="Superman dark theme action figure">
                 </div>
                 <div class="prodDescContainer">
                     <h3 class="prodTitle">Kai Superman DC Comics Play Arts Dark Theme</h3>
@@ -151,7 +153,7 @@
             </div>
             <div class="productContainer">
                 <div class="prodImgContainer">
-                    <img src="./Pic/lookAtYou2.jpg" alt="">
+                    <img src="./Pic/lookAtYou2.jpg" alt="Nekomata Okayu collectible figure">
                 </div>
                 <div class="prodDescContainer">
                     <h3 class="prodTitle">Hololive Production Nekomata Okayu Parade</h3>
@@ -162,7 +164,7 @@
             </div>
             <div class="productContainer">
                 <div class="prodImgContainer">
-                    <img src="./Pic/mansory-removebg-preview.png" alt="">
+                    <img src="./Pic/mansory-removebg-preview.png" alt="Mansory Ford GT toy car">
                 </div>
                 <div class="prodDescContainer">
                     <h3 class="prodTitle">Mansory Le Mansory Ford GT Blue Metallic Version</h3>
@@ -173,7 +175,7 @@
             </div>
             <div class="productContainer">
                 <div class="prodImgContainer">
-                    <img src="./Pic/gundam2.jpg" alt="">
+                    <img src="./Pic/gundam2.jpg" alt="Gundam Aerial model kit">
                 </div>
                 <div class="prodDescContainer">
                     <h3 class="prodTitle">BANDAI Suit Gundam The Witch From Mercury Aerial</h3>
@@ -237,18 +239,18 @@
                     
                     <div class="sosmed">
                         <div class="sosmedList">
-                            <a href=""><img src="./Pic/square-instagram.svg" alt=""></a>
+                            <a href=""><img src="./Pic/square-instagram.svg" alt="Instagram"></a>
                         </div>
                         <div class="sosmedList">
-                            <a href=""><img src="./Pic/facebook (1).svg" alt=""></a>
+                            <a href=""><img src="./Pic/facebook (1).svg" alt="Facebook"></a>
                             
                         </div>
                         <div class="sosmedList">
-                            <a href=""><img src="./Pic/discord.svg" alt=""></a>
+                            <a href=""><img src="./Pic/discord.svg" alt="Discord"></a>
                             
                         </div>
                         <div class="sosmedList">
-                            <a href=""><img src="./Pic/twitter (1).svg" alt=""></a>
+                            <a href=""><img src="./Pic/twitter (1).svg" alt="Twitter"></a>
                             
                         </div>
                     </div>
@@ -256,7 +258,7 @@
             </div>
         </div>
         <div class="footImg">
-                <img src="./Pic/gojo-removebg-preview.png" alt="">
+                <img src="./Pic/gojo-removebg-preview.png" alt="Gojo figure decoration">
         </div>
     </footer>
     <div class="copyright">

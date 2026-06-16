@@ -23,7 +23,7 @@ function validation(){
     else if(passwordValidation(password) == false){
         return;
     }
-    else if(aggrementValidation(agreement)){
+    else if(aggrementValidation(agreement)== false){
         return;
     }
     else{
@@ -88,6 +88,7 @@ function passwordValidation(password) {
 function aggrementValidation(agreement){
     if(agreement.checked == false){
         errorMessage.innerHTML = "No agree with our agreement?"
+        return false;
     }
     return true;
 }
